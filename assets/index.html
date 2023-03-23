@@ -1,130 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./scss/style.scss">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./scss/style.scss">
+  <title>Document</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid p-3" style="margin: 0 50px;">
-        <a class="navbar-brand" href="#">Lingo Lingo</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Shop by Category</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">About</a>
-            </li>
-          </ul>
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+    <div class="container-fluid p-3 " style="margin: 0 50px;">
+      <a class="navbar-brand" href="#">Lingo Lingo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Shop by Category</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1"><i class="fa-solid fa-basket-shopping"></i>
+            <sup>0</sup>
+            </a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
 
-   <div class="container mt-5">
+  <div class="container mt-5">
     <div class="row d-flex justify-content-around mt-2">
-      <div class="card mt-2" style="width: 18rem;">
+
+      <div class="card mt-2" style="width: 18rem; cursor:pointer; ">
         <img src="./img/1_org_zoom (1).webp" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Zara</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.
+          </p>
+          <p><b>945 TL</b></p>
+          <a href="#" class="btn btn-primary">Add to basket</a>
         </div>
       </div>
-  
-      <div class="card mt-2" style="width: 18rem;">
+
+
+      <div class="card mt-2" style="width: 18rem; cursor:pointer;">
         <img src="./img/1_org_zoom.webp" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Bershka</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.
+          </p>
+          <p><b>324 TL</b></p>
+          <a href="#" class="btn btn-primary">Add to basket</a>
         </div>
       </div>
-  
-      <div class="card mt-2" style="width: 18rem;">
+
+      <div class="card mt-2" style="width: 18rem; cursor:pointer;">
         <img src="./img/2_org_zoom.webp" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Stradivarius</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.
+          </p>
+          <p><b>400 TL</b></p>
+          <a href="#" class="btn btn-primary">Add to basket</a>
         </div>
       </div>
-  
-      <div class="card mt-2" style="width: 18rem;">
+
+      <div class="card mt-4" style="width: 18rem; cursor:pointer;">
         <img src="./img/3_org_zoom.webp" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Bershka</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.
+          </p>
+          <p><b>280 TL</b></p>
+          <a href="#" class="btn btn-primary">Add to basket</a>
         </div>
       </div>
-  
-      <div class="card mt-2" style="width: 18rem;">
+
+      <div class="card mt-4" style="width: 18rem; cursor:pointer;">
         <img src="./img/4_org_zoom.webp" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Stradivarius</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.
+          </p>
+          <p><b>670 TL</b></p>
+          <a href="#" class="btn btn-primary">Add to basket</a>
         </div>
       </div>
-  
-      <div class="card mt-2" style="width: 18rem;">
+
+      <div class="card mt-4" style="width: 18rem; cursor:pointer;">
         <img src="./img/6_org_zoom (1).webp" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Mango</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.
+          </p>
+          <p><b>427 TL</b></p>
+          <a href="#" class="btn btn-primary">Add to basket</a>
         </div>
       </div>
-  
-  
-      <div class="card mt-2" style="width: 18rem;">
+
+
+      <div class="card mt-4" style="width: 18rem; cursor:pointer;">
         <img src="./img/6_org_zoom.webp" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Pull & Bear</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.
+          </p>
+          <p><b>730 TL</b></p>
+          <a href="#" class="btn btn-primary">Add to basket</a>
         </div>
       </div>
 
 
-      <div class="card mt-2" style="width: 18rem;">
-        <img src="./img/6_org_zoom.webp" class="card-img-top" alt="...">
+      <div class="card mt-4" style="width: 18rem; cursor:pointer;">
+        <img src="./img/1_org_zoom (2).webp" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">QUZU</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.
+          </p>
+          <p><b>1610 TL</b></p>
+          <a href="#" class="btn btn-primary">Add to basket</a>
         </div>
       </div>
 
 
-      <div class="card mt-2" style="width: 18rem;">
-        <img src="./img/6_org_zoom.webp" class="card-img-top" alt="...">
+      <div class="card mt-4" style="width: 18rem; cursor:pointer;">
+        <img src="./img/2_org_zoom (2).webp" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">H&M</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.
+          </p>
+          <p><b>619 TL</b></p>
+          <p><b></b></p>
+          <a href="#" class="btn btn-primary">Add to basket</a>
         </div>
       </div>
-  
+
+
+
+      
+
     </div>
-   </div>
+  </div>
 </body>
 <script src="./js/script.js"></script>
+
 </html>
